@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "padding.css";
+@import "buttons.css";
+@import "image.css";
+@import "animation.css";
+@import "info.css";
+@import "font.css";
+@import "pokemon.css";
+
+body {
+	text-align: center;
+	/* background: linear-gradient(to bottom, #ffe3e3, #fff); */
+	/* background: linear-gradient(to bottom, #e3d7ff, #fff); */
+	/* background: linear-gradient(to bottom, #dff3e4, #fff); */
+	background: linear-gradient(to bottom, #aea4bf, #fff);
+	/* background: linear-gradient(to bottom, #c0e6de, #fff); */
+	min-height: 100vh;
+}
+
+main {
+	display: inline-block;
+	margin-top: 2%;
+	padding: 15px;
+	position: relative;
+}
+
+.title {
+	-webkit-text-stroke: 5px #2d6ab4;
+	color: #ffcc01;
+}

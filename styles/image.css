@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.protocole_image {
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	border-radius: 9999px;
+	bottom: 48%;
+	left: 33%;
+	transform: translate(-63%, 20%);
+	height: 18%;
+	box-shadow: -2px 3px 0 rgb(73, 73, 73), -4px 6px 0 rgb(73, 73, 73);
+}

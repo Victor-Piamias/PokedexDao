@@ -1,11 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin")
+
 module.exports = {
-	content: [
-		"./pages/**/*.{js,ts,jsx,tsx}",
-		"./components/**/*.{js,ts,jsx,tsx}",
-	],
+	darkMode: "class",
+	content: ["./pages/**/*.{js,ts,jsx,tsx}", "./comps/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			plugins: [
+				plugin(({ addVariant }) => {
+					addVariant("ahover", "@media (hover: hover) { &:hover }")
+				}),
+			],
+		},
 	},
-	plugins: [],
 }

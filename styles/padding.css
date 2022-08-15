@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.p-xs {
+		@apply px-2 py-1;
+	}
+
+	.p-sm {
+		@apply px-4 py-2;
+	}
+
+	.p-md {
+		@apply px-6 py-4;
+	}
+
+	.p-lg {
+		@apply px-8 py-6;
+	}
+
+	.p-xl {
+		@apply px-10 py-8;
+	}
+}

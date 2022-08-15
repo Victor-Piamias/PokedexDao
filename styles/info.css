@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dao-info {
+	background-color: rgb(227, 227, 227);
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	width: 65%;
+	transform: translate(-57%, 0);
+	padding: 4%;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-size: clamp(8px, 5vw, 1rem);
+	font-weight: 600;
+	box-shadow: -2px 3px 0 rgb(121, 117, 122), -2px 4px 0 rgb(121, 117, 122);
+}
+
+.protocole_info {
+	position: absolute;
+	font-weight: 600;
+	top: 54.5%;
+	right: 27%;
+	font-size: clamp(8px, 5vw, 25px);
+}
+
+.protocole_name {
+	color: #3a444d;
+}
+
+.protocole-description {
+	position: relative;
+	display: block;
+	font-family: "Press Start 2P";
+	width: 100%;
+	height: 50px;
+	left: 50%;
+	top: 25px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+.left {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	left: 100%;
+}
+
+.right {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.protocole-save {
+	width: 100%;
+	height: 6vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	overflow: hidden;
+}

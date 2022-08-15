@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lugia {
+	position: absolute;
+	bottom: 40%;
+	left: 100%;
+}
+
+.hooh {
+	position: absolute;
+	bottom: 28%;
+	right: 100%;
+}
